@@ -1,0 +1,8 @@
+{
+  "name": "nuvu-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "f69fd980"
+}
