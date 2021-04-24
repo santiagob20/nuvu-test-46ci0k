@@ -1,0 +1,25 @@
+.container{
+    margin: 1rem 1rem 1rem 1rem;
+    --background: #f8f8fc;
+}
+
+.font-color-1{
+    color: #58506c;
+}
+
+.font-color-2{
+    color: white;
+}
+.font-color-3{
+    color: #817699;
+}
+.blue-font-color{
+    background: -webkit-linear-gradient(rgba(57,153,222,1), rgba(82,206,236,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aux-icon{
+    color:rgba(57,153,222,1);
+    font-size: 25px;
+}

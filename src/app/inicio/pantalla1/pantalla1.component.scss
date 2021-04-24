@@ -1,0 +1,48 @@
+.square-gradient{
+    background: linear-gradient(
+        0deg
+        , rgba(57,153,222,1) 0%, rgba(82,206,236,1) 100%);
+            height: 15rem;
+            border-radius: 1rem;
+            margin-top: 2rem;
+}
+
+.img-ahorro-1{
+    right: 2rem;
+    top: 0rem;
+    position: absolute;
+}
+
+.card-details{
+    margin: 2rem 0 0 0;
+    border-radius: 1rem;
+    box-shadow: none;
+}
+
+.card-metas{
+    border-radius: 1rem;
+    box-shadow: none;
+}
+
+.card-content{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #f1f1f1;
+}
+
+.card-span-values{
+    position: absolute;
+    right: 2rem;
+    font-weight: 500;
+}
+
+.chip{
+    background: #e4ffee;
+    color: #72dd90;
+}
+
+.img-consejo{
+    width: 6rem;
+    right: 0.8rem;
+    top: 1.5rem;
+}

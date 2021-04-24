@@ -1,0 +1,150 @@
+<ion-grid>
+  <ion-row>
+    <!-- first title -->
+    <ion-col size="10">
+      <h2 class="font-color-1">Hola, {{username}}</h2>
+    </ion-col>
+    <ion-col size="2" style="align-self: center; text-align: end;">
+      <ion-icon class="aux-icon" name="notifications-outline"></ion-icon>
+    </ion-col>
+
+    <!-- details saldo -->
+    <ion-col size="12">
+      <div class="square-gradient">
+        <img src="assets/images/ahorro_1.png" alt="Ahorro 1" class="img-ahorro-1">
+        <ion-row>
+          <ion-col size="1"></ion-col>
+          <ion-col size="5">
+            <h4 class="font-color-2">Eres estratega</h4>
+          </ion-col>
+        </ion-row>
+        <ion-row style="margin-top: 3rem;">
+          <ion-col size="1"></ion-col>
+          <ion-col size="11">
+            <h6 class="font-color-2" style="margin-bottom: 0;">Tu saldo</h6>
+            <p class="font-color-2" style="font-size: 26px;margin-top: 10px;">$ {{saldo}}</p>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-col>
+
+    <!-- card details -->
+    <ion-col size="12">
+      <ion-card class="card-details">
+        <ion-card-content class="card-content">
+          Inversión <span class="font-color-1 card-span-values">$1.600.000</span>
+        </ion-card-content>
+        <ion-card-content>
+          Rendimiento <span class="font-color-1 card-span-values">-$30.000</span>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+    <!-- tus metas -->
+    <ion-col size="10">
+      <h3 class="font-color-1">Tus metas</h3>
+    </ion-col>
+    <ion-col size="2" style="align-self: center; text-align: end;">
+      <ion-icon class="aux-icon" name="add-circle-outline"></ion-icon>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card class="card-details">
+        <ion-card-content class="card-metas">
+          <span style="font-size: 3rem;">🏝</span>
+          <p class="font-color-1 card-content" style="font-weight: 400;font-size: 0.8rem;">Viaje a Islas Canarias</p>
+          <ion-row>
+            <ion-col size="6">
+              <circle-progress [options]="options">
+              </circle-progress>
+            </ion-col>
+            <ion-col size="6" style="align-self: center;">
+              <h6 class="blue-font-color" style="font-size: 12px;">$1.630.000</h6>
+              <p class="font-color-1" style="font-size: 10px;">$8.000.000</p>
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card class="card-details">
+        <ion-card-content class="card-metas">
+          <span style="font-size: 3rem;">💻</span>
+          <p class="font-color-1 card-content" style="font-weight: 400;font-size: 0.8rem;">Macbook pro</p>
+          <ion-row>
+            <ion-col size="6">
+              <circle-progress [options]="options2">
+              </circle-progress>
+            </ion-col>
+            <ion-col size="6" style="align-self: center;">
+              <h6 class="blue-font-color" style="font-size: 12px;">$0</h6>
+              <p class="font-color-1" style="font-size: 10px;">$7.000.000</p>
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+
+    <!-- conoce tu portafolio -->
+    <ion-col size="8">
+      <h2 class="font-color-1">Conoce tu portafolio</h2>
+    </ion-col>
+    <ion-col size="4" style="align-self: center; text-align: end;">
+      <ion-chip class="chip" color="success" outline="true">
+        <ion-label>Estratega</ion-label>
+      </ion-chip>
+    </ion-col>
+    <ion-col size="12">
+      <img style="width: 100%;" src="assets/images/portafolio.png" alt="portafolio">
+    </ion-col>
+
+    <!-- los p*tas del ahorro -->
+    <ion-col size="12">
+      <h2 class="font-color-1">Los p*tas del ahorro</h2>
+    </ion-col>
+    <ion-col size="12">
+      <img style="width: 100%;" src="assets/images/p*tas.png" alt="p*tas de ahorro">
+    </ion-col>
+
+    <!-- consejos -->
+    <ion-col size="12">
+      <ion-card class="card-details">
+        <ion-card-content class="card-content">
+          <ion-row>
+            <ion-col size="8">
+              <h3 class="font-color-3" style="font-size: 1.3rem;">10 Gastos que debes evitar </h3>
+              <p class="font-color-1">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de
+                manera fomal.</p>
+            </ion-col>
+            <ion-col size="4" style="text-align: end;">
+              <img class="img-consejo" src="assets/images/consejo1.png" alt="consejo">
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+        <ion-card-content class="card-content">
+          <ion-row>
+            <ion-col size="8">
+              <h3 class="font-color-3" style="font-size: 1.3rem;">10 Gastos que debes evitar </h3>
+              <p class="font-color-1">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de
+                manera fomal.</p>
+            </ion-col>
+            <ion-col size="4" style="text-align: end;">
+              <img class="img-consejo" src="assets/images/consejo2.png" alt="consejo">
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+        <ion-card-content class="card-content">
+          <ion-row>
+            <ion-col size="8">
+              <h3 class="font-color-3" style="font-size: 1.3rem;">10 Gastos que debes evitar </h3>
+              <p class="font-color-1">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de
+                manera fomal.</p>
+            </ion-col>
+            <ion-col size="4" style="text-align: end;">
+              <img class="img-consejo" src="assets/images/consejo3.png" alt="consejo">
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
