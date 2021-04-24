@@ -1,1 +1,12 @@
+.floating-btn{
+    margin-bottom: 1rem;
+    --box-shadow: none;
+    --border-color: ghostwhite;
+    --border-width: 5px;
+    --border-style: solid;
+}
 
+ion-tab-button {
+    --color: #a99dc6;
+    --color-selected: rgba(57,153,222,1);
+}
